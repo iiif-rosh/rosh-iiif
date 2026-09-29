@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IMG_0194"
+                ]
+            },
+            "height": 2304,
+            "width": 3072,
+            "items": [
+                {
+                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 96,
+                                                "height": 72
+                                            },
+                                            {
+                                                "width": 192,
+                                                "height": 144
+                                            },
+                                            {
+                                                "width": 384,
+                                                "height": 288
+                                            },
+                                            {
+                                                "width": 768,
+                                                "height": 576
+                                            },
+                                            {
+                                                "width": 1536,
+                                                "height": 1152
+                                            },
+                                            {
+                                                "width": 3072,
+                                                "height": 2304
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3072,
+                                        "@id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2304,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p1/canvas/",
             "type": "Canvas",
             "label": {
@@ -90,26 +171,26 @@
             ]
         },
         {
-            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/canvas/",
+            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "IMG_0194"
+                    "IMG_5294"
                 ]
             },
-            "height": 2304,
-            "width": 3072,
+            "height": 960,
+            "width": 735,
             "items": [
                 {
-                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/annotation/AnnoPage",
+                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/annotation/",
+                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/full/full/0/default.jpg",
+                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -130,41 +211,41 @@
                                         "protocol": "http://iiif.io/api/image",
                                         "sizes": [
                                             {
-                                                "width": 96,
-                                                "height": 72
+                                                "width": 23,
+                                                "height": 30
                                             },
                                             {
-                                                "width": 192,
-                                                "height": 144
+                                                "width": 46,
+                                                "height": 60
                                             },
                                             {
-                                                "width": 384,
-                                                "height": 288
+                                                "width": 92,
+                                                "height": 120
                                             },
                                             {
-                                                "width": 768,
-                                                "height": 576
+                                                "width": 184,
+                                                "height": 240
                                             },
                                             {
-                                                "width": 1536,
-                                                "height": 1152
+                                                "width": 368,
+                                                "height": 480
                                             },
                                             {
-                                                "width": 3072,
-                                                "height": 2304
+                                                "width": 735,
+                                                "height": 960
                                             }
                                         ],
-                                        "profile": "http://iiif.io/api/image/2/level0.json",
-                                        "width": 3072,
-                                        "@id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194",
-                                        "@context": "http://iiif.io/api/image/2/context.json",
-                                        "height": 2304,
-                                        "@type": "ImageService2"
+                                        "profile": "level0",
+                                        "width": 735,
+                                        "id": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 960
                                     }
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_0194/canvas/"
+                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/canvas/"
                         }
                     ]
                 }

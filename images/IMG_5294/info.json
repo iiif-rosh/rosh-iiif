@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 23,
+    "height" : 30
+  }, {
+    "width" : 46,
+    "height" : 60
+  }, {
+    "width" : 92,
+    "height" : 120
+  }, {
+    "width" : 184,
+    "height" : 240
+  }, {
+    "width" : 368,
+    "height" : 480
+  }, {
+    "width" : 735,
+    "height" : 960
+  } ],
+  "profile" : "level0",
+  "width" : 735,
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 960
+}
