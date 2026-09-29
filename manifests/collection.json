@@ -1,0 +1,15 @@
+{
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-rosh/rosh-iiif project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/manifest.json",
+    "label" : {
+      "en" : [ "duck swimming" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
