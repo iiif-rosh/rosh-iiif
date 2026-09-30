@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 49,
+    "height" : 73
+  }, {
+    "width" : 97,
+    "height" : 146
+  }, {
+    "width" : 193,
+    "height" : 291
+  }, {
+    "width" : 386,
+    "height" : 581
+  }, {
+    "width" : 771,
+    "height" : 1162
+  }, {
+    "width" : 1542,
+    "height" : 2323
+  } ],
+  "profile" : "level0",
+  "width" : 1542,
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p2",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 2323
+}
