@@ -17,5 +17,11 @@
       "en" : [ "duck swimming" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/argus_manifest.json",
+    "label" : {
+      "en" : [ "Argus Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
