@@ -2,6 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/manifest2.json",
   "type" : "Manifest",
+  "behavior" : "individuals",
   "label" : {
     "en" : [ "Rosh's manifest" ]
   },
@@ -9,6 +10,14 @@
     "en" : [ "Images and Video taken by Rosh" ]
   },
   "rights" : "Copyright Protected",
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Provided courtesy of R. Jaimon" ]
+    }
+  },
   "metadata" : [ {
     "label" : {
       "en" : [ "Author" ]
