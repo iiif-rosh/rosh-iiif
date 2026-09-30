@@ -1,0 +1,170 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/argus_manifest.json",
+  "type" : "Manifest",
+  "behavior" : "continuous",
+  "viewingDirection" : "right-to-left",
+  "label" : {
+    "en" : [ "Argus Manifest" ]
+  },
+  "summary" : {
+    "en" : [ "Argus Eyes for Victory Vol. No. 1" ]
+  },
+  "rendering" : [ {
+    "id" : "https://aadl.org/files/documents/pdf/argus_eyes/argus_eyes_19421005.pdf",
+    "type" : "Text",
+    "label" : {
+      "en" : [ "PDF version" ]
+    },
+    "format" : "application/pdf"
+  } ],
+  "requiredStatement" : {
+    "value" : {
+      "en" : [ "Argus Camera" ]
+    },
+    "label" : {
+      "en" : [ "Published by" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/licenses/by/4.0/",
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Argus Camera (1942-1959)" ]
+    }
+  } ],
+  "navDate" : "1942-10-05T04:00:00.000Z",
+  "items" : [ {
+    "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/wo2dnkv6ftm-muoh19sk",
+    "type" : "Canvas",
+    "height" : 2298,
+    "width" : 1559,
+    "label" : {
+      "en" : [ "Page 1" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p1/full/390,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 575,
+      "width" : 390
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/wo2dnkv6ftm-muoh19sk/annotation-page/0ne0jxdkzyn-muoh19sk",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/annotation/wm9huwd5mx-muoh19sj",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/wo2dnkv6ftm-muoh19sk",
+        "body" : {
+          "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p1/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2298,
+          "width" : 1559,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 49,
+              "height" : 72
+            }, {
+              "width" : 98,
+              "height" : 144
+            }, {
+              "width" : 195,
+              "height" : 288
+            }, {
+              "width" : 390,
+              "height" : 575
+            }, {
+              "width" : 780,
+              "height" : 1149
+            }, {
+              "width" : 1559,
+              "height" : 2298
+            } ],
+            "profile" : "level0",
+            "width" : 1559,
+            "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2298
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/g28kjnyhh8-muoh91ks",
+    "type" : "Canvas",
+    "height" : 2323,
+    "width" : 1542,
+    "label" : {
+      "en" : [ "Page 2" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p2/full/386,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 581,
+      "width" : 386
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/g28kjnyhh8-muoh91ks/annotation-page/fk7hqwi15tu-muoh91ks",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/0ewy1t87wu1o-muogqxkk/annotation/qbd6vguzap-muoh91kr",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/0ewy1t87wu1o-muogqxkk/canvas/g28kjnyhh8-muoh91ks",
+        "body" : {
+          "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2323,
+          "width" : 1542,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 49,
+              "height" : 73
+            }, {
+              "width" : 97,
+              "height" : 146
+            }, {
+              "width" : 193,
+              "height" : 291
+            }, {
+              "width" : 386,
+              "height" : 581
+            }, {
+              "width" : 771,
+              "height" : 1162
+            }, {
+              "width" : 1542,
+              "height" : 2323
+            } ],
+            "profile" : "level0",
+            "width" : 1542,
+            "id" : "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p2",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2323
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
