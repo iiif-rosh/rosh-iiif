@@ -33,6 +33,25 @@
       "en" : [ "Misc Images and Video" ]
     }
   } ],
+  "structures" : [ {
+    "id" : "http://example.org/iiif/book1/range/top",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "Table of Content" ]
+    },
+    "viewingHint" : "top",
+    "items" : [ {
+      "id" : "http://example.org/iiif/book1/range/intro",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Introduction" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ],
   "items" : [ {
     "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93",
     "type" : "Canvas",
