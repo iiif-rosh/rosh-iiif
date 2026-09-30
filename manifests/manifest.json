@@ -3,11 +3,12 @@
   "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/manifest.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "duck swimming" ]
+    "en" : [ "Rosh's manifest" ]
   },
   "summary" : {
-    "en" : [ "Photo of duck swimming" ]
+    "en" : [ "Images taken by Rosh" ]
   },
+  "rights" : "Copyright Protected",
   "items" : [ {
     "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93",
     "type" : "Canvas",
@@ -16,22 +17,23 @@
     "label" : {
       "en" : [ "Page 1" ]
     },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
     "summary" : {
-      "en" : [ "Duck Swimming in pond" ]
+      "en" : [ "Duck swimming in Argo pond" ]
     },
     "rights" : "http://creativecommons.org/licenses/by/4.0/",
-    "thumbnail" : [ {
-      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/IMG_5294/full/368,/0/default.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "height" : 480,
-      "width" : 368
-    } ],
     "items" : [ {
       "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93/annotation-page/u5twjji6la-muna7s93",
       "type" : "AnnotationPage",
       "items" : [ {
-        "id" : "https://example.org/f1cfjl6oemh-mun9hvei/annotation/zsks6a3exn-muna7s92",
+        "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93/annotation-page/u5twjji6la-muna7s93/annotation/28992278ulr-munhmnra",
         "type" : "Annotation",
         "motivation" : "painting",
         "target" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93",
@@ -142,6 +144,36 @@
             "@context" : "http://iiif.io/api/image/2/context.json",
             "height" : 2304
           } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/0d6zhxn5nq5a-munfcrqs",
+    "type" : "Canvas",
+    "height" : 1920,
+    "width" : 1080,
+    "duration" : 45.893333,
+    "label" : {
+      "en" : [ "2016 Powwow" ]
+    },
+    "summary" : {
+      "en" : [ "Each spring, more than 12,000 visitors flock to this colorful gathering\nof Native Americans from the Great Lakes area, the United States, and\nCanada. More than 1,000 champion singers, dancers, and artisans\ndemonstrate their skills." ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/0d6zhxn5nq5a-munfcrqs/annotation-page/1rjvlk12emq-munfcrqs",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/f1cfjl6oemh-mun9hvei/annotation/qtkqfw6j7ia-munfcrqs",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/0d6zhxn5nq5a-munfcrqs",
+        "body" : {
+          "id" : "https://archive.org/download/img-1434_202609/IMG_1434.MOV",
+          "type" : "Video",
+          "format" : "video/mp4",
+          "height" : 1920,
+          "width" : 1080,
+          "duration" : 45.893333
         }
       } ]
     } ]
