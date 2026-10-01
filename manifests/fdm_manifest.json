@@ -1,0 +1,310 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/fdm_manifest.json",
+  "type" : "Manifest",
+  "behavior" : "individuals",
+  "label" : {
+    "en" : [ "FandDM Manifest" ]
+  },
+  "summary" : {
+    "en" : [ "Food and Drug Mart Story" ]
+  },
+  "rights" : "Donated by the Ann Arbor News. © The Ann Arbor News.",
+  "structures" : [ {
+    "id" : "http://example.org/iiif/book1/range/top",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "Table of Content" ]
+    },
+    "viewingHint" : "top",
+    "items" : [ {
+      "id" : "http://example.org/iiif/book1/range/intro",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Introduction" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/f1cfjl6oemh-mun9hvei/canvas/o5rssz6r89-muna7s93",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ],
+  "homepage" : [ {
+    "id" : "https://oldnews.aadl.org",
+    "type" : "Text",
+    "label" : {
+      "en" : [ "Ann Arbor District Library Archives" ]
+    },
+    "format" : "text/html",
+    "language" : [ "en" ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/roim2ebe1op-muotgiby",
+    "type" : "Canvas",
+    "height" : 4744,
+    "width" : 2392,
+    "label" : {
+      "en" : [ "article" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Author" ]
+      },
+      "value" : {
+        "en" : [ "Peter Ephross" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Issue" ]
+      },
+      "value" : {
+        "en" : [ "Ann Arbor News, January 17, 1994" ]
+      }
+    } ],
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Copyright" ]
+      },
+      "value" : {
+        "en" : [ "Donated by the Ann Arbor News. © The Ann Arbor News." ]
+      }
+    },
+    "rights" : "Copyright Protected",
+    "navDate" : "1994-01-17T05:00:00.000Z",
+    "thumbnail" : [ {
+      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19940117-neighborhood_grocers/full/299,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 593,
+      "width" : 299
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/roim2ebe1op-muotgiby/annotation-page/ezyq34q2i1q-muotgiby",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/8o1izi0zwgv-muot9ap1/annotation/f955s8tgfg-muotgiby",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/roim2ebe1op-muotgiby",
+        "body" : {
+          "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19940117-neighborhood_grocers/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4744,
+          "width" : 2392,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 75,
+              "height" : 149
+            }, {
+              "width" : 150,
+              "height" : 297
+            }, {
+              "width" : 299,
+              "height" : 593
+            }, {
+              "width" : 598,
+              "height" : 1186
+            }, {
+              "width" : 1196,
+              "height" : 2372
+            }, {
+              "width" : 2392,
+              "height" : 4744
+            } ],
+            "profile" : "level0",
+            "width" : 2392,
+            "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19940117-neighborhood_grocers",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4744
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/26wjziq0fy-muotq8fo",
+    "type" : "Canvas",
+    "height" : 3155,
+    "width" : 4000,
+    "label" : {
+      "en" : [ "photo" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Location" ]
+      },
+      "value" : {
+        "en" : [ "E Stadium Blvd" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Subjects" ]
+      },
+      "value" : {
+        "en" : [ "Food & Drug Mart, Grocery Stores, Pharmacies" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Interior Of Food & Drug Mart On E Stadium Blvd" ]
+    },
+    "rights" : "Copyright Protected",
+    "navDate" : "1951-02-01T05:00:00.000Z",
+    "thumbnail" : [ {
+      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/full/500,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 395,
+      "width" : 500
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/26wjziq0fy-muotq8fo/annotation-page/9ci42csq36-muotq8fo",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/8o1izi0zwgv-muot9ap1/annotation/v7ytp44p6tg-muotq8fo",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/26wjziq0fy-muotq8fo",
+        "body" : {
+          "id" : "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3155,
+          "width" : 4000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 99
+            }, {
+              "width" : 250,
+              "height" : 198
+            }, {
+              "width" : 500,
+              "height" : 395
+            }, {
+              "width" : 1000,
+              "height" : 789
+            }, {
+              "width" : 2000,
+              "height" : 1578
+            }, {
+              "width" : 4000,
+              "height" : 3155
+            } ],
+            "profile" : "level0",
+            "width" : 4000,
+            "id" : "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3155
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/qing2df4e1n-muotzzvo",
+    "type" : "Canvas",
+    "height" : 11755,
+    "width" : 3478,
+    "label" : {
+      "en" : [ "advertisement" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Location" ]
+      },
+      "value" : {
+        "en" : [ "Corner Packard St and Stadium Blvd" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Issue" ]
+      },
+      "value" : {
+        "en" : [ "Ann Arbor News, April 2, 1956" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Food & Drug Mart" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Copyright" ]
+      },
+      "value" : {
+        "en" : [ "Donated by the Ann Arbor News. © The Ann Arbor News." ]
+      }
+    },
+    "rights" : "Copyright Protected",
+    "navDate" : "1956-04-02T05:00:00.000Z",
+    "thumbnail" : [ {
+      "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/full/435,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 1470,
+      "width" : 435
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/qing2df4e1n-muotzzvo/annotation-page/oct43d2ht0i-muotzzvo",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/8o1izi0zwgv-muot9ap1/annotation/in4xbnns1vp-muotzzvn",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/8o1izi0zwgv-muot9ap1/canvas/qing2df4e1n-muotzzvo",
+        "body" : {
+          "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 11755,
+          "width" : 3478,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 109,
+              "height" : 368
+            }, {
+              "width" : 218,
+              "height" : 735
+            }, {
+              "width" : 435,
+              "height" : 1470
+            }, {
+              "width" : 870,
+              "height" : 2939
+            }, {
+              "width" : 1739,
+              "height" : 5878
+            }, {
+              "width" : 3478,
+              "height" : 11755
+            } ],
+            "profile" : "level0",
+            "width" : 3478,
+            "id" : "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 11755
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
