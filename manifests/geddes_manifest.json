@@ -9,10 +9,10 @@
   "rendering" : [ {
     "id" : "https://aadl.org/sites/default/files/docfiles/geddes_letters_18250805.pdf",
     "type" : "Text",
-    "format" : "text/plain",
     "label" : {
-      "en" : [ "View as text" ]
-    }
+      "en" : [ "PDF version" ]
+    },
+    "format" : "application/pdf"
   } ],
   "items" : [ {
     "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa",
@@ -20,10 +20,10 @@
     "height" : 3074,
     "width" : 2506,
     "label" : {
-      "en" : [ "Page 1" ]
+      "en" : [ "geddes canvas" ]
     },
     "summary" : {
-      "en" : [ "John & William Geddes Letter" ]
+      "en" : [ "John & William Geddes Letters" ]
     },
     "rights" : "Public Domain",
     "thumbnail" : [ {
@@ -96,114 +96,21 @@
       "items" : [ {
         "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotations/vuhxmca7vg-mupv8hrd/annotation/awq45v99yqr-mupv9if9",
         "type" : "Annotation",
-        "motivation" : "tagging",
-        "target" : {
-          "type" : "SpecificResource",
-          "source" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa",
-          "selector" : [ {
-            "type" : "FragmentSelector",
-            "value" : "xywh=7,6,2483,3044"
-          } ]
-        },
+        "purpose" : "commenting",
+        "target" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa#xywh=7,6,2483,3044",
         "body" : {
           "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotations/vuhxmca7vg-mupv8hrd/annotation/awq45v99yqr-mupv9if9/html/en/sqmotpmqtf-mupv9if9",
           "type" : "TextualBody",
           "format" : "text/html",
           "language" : "en",
-          "value" : "<p>Londonderry August the 5th 1825&#x20;</p>\n<p>Dear Brother Received your letter of the 30th of May on the 18th of June</p>\n<p>and agreeable to your request delayed writing untill I received your letter of</p>\n<p>July 3rd which came to hand on the 30th of July. The delay suited me very</p>\n<p>well as we had pretty throng times in June, spring having commenced so early</p>\n<p>together with an excessive drought that it brought hay-making and harvest</p>\n<p>on us early and almost at once. We commenced mowing on the 11th of June</p>\n<p>and harvesting on the 23d earlier to best of my recollection than ever we did this</p>\n<p>however you are a competent judge. Our grass was nothing light and short</p>\n<p>owing to the drouth and fell far behind our calculations, the field next Camp-</p>\n<p>bellstown was scarce worth mowing, the weather for hay-making was just the</p>\n<p>reverse of last year very fine. The grain however made ample amends for</p>\n<p>we have the greatest crop of Wheat and Rye taken together that ever was raised</p>\n<p>on the place. The wheat at any rate is the greatest. We have 993 dozens of Wheat</p>\n<p>and 561 of Rye. The oats was not good we will have but about 200 bushels.</p>\n<p>Hands was 50 cts. per day hay-making and harvest cost 52.62 cts. harvest lasted</p>\n<p>just 2 weeks. The drought this season has exceeded any heretofore known in</p>\n<p>this country, I was obliged to quit ploughing in the latter end of May for about</p>\n<p>8 days, the wether was so very hot and the ground of such an Adamantine</p>\n<p>hardness that it was almost impossible to plough. We received rain in the beginning</p>\n<p>June that enabled me to plough and benefited the grain very much I have still</p>\n<p>about 12 acres to break up of tough ground that I think would take your mighty</p>\n<p>plough and 8 oxen to tear up without rain. The Corn is almost entirely within</p>\n<p>up we wont have as much as will fatten our hogs. I am very well pleased with</p>\n<p>your plan of operations in Michigan and was very glad to hear that Robert</p>\n<p>had no difficulty in getting his money as well as his being so well pleased with</p>\n<p>the new country as his great purchases seem to indicate. The distance between</p>\n<p>your location and that of Roberts is not very convenient for a partnership</p>\n<p>your manner of house keeping is no doubt disagreeable to you as not being used to it</p>\n<p>but you ought both to be satisfied with it at least for a few years, for the marriage</p>\n<p>of either of you will likely be a dissolution of Partnership which at present I</p>\n<p>think is advantageous to both. What I am to do about my money or when I</p>\n<p>shall steer for that far famed country of Michigan I am wholly undetermined</p>\n<p>I have not asked for my money yet because I cannot see how or when Sawyer</p>\n<p>can pay it. You must be perfectly aware that for me to sue him for it before Isabel</p>\n<p>is of age, would be the greatest folly imaginable of course it is perfectly optional</p>\n<p>with him whether he pays me or not he is as completely fortified as if he were insolvent</p>"
-        }
-      } ]
-    } ]
-  }, {
-    "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh",
-    "type" : "Canvas",
-    "height" : 3074,
-    "width" : 2506,
-    "behavior" : [ "continuous" ],
-    "label" : {
-      "en" : [ "Cover" ]
-    },
-    "summary" : {
-      "en" : [ "Address Page" ]
-    },
-    "thumbnail" : [ {
-      "id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-0%2fgeddes_letters_18250805-0.jpg/full/313,/0/default.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "height" : 384,
-      "width" : 313
-    } ],
-    "items" : [ {
-      "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh/annotation-page/idvakdfb44-mupyxjuh",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/annotation/ve8qws29z8-mupyxjug",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh",
-        "body" : {
-          "id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-0%2fgeddes_letters_18250805-0.jpg/full/max/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpeg",
-          "height" : 3074,
-          "width" : 2506,
-          "service" : [ {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-0%2fgeddes_letters_18250805-0.jpg",
-            "protocol" : "http://iiif.io/api/image",
-            "width" : 2506,
-            "height" : 3074,
-            "sizes" : [ {
-              "width" : 78,
-              "height" : 96
-            }, {
-              "width" : 157,
-              "height" : 192
-            }, {
-              "width" : 313,
-              "height" : 384
-            }, {
-              "width" : 627,
-              "height" : 769
-            }, {
-              "width" : 1253,
-              "height" : 1537
-            }, {
-              "width" : 2506,
-              "height" : 3074
-            } ],
-            "tiles" : [ {
-              "width" : 512,
-              "height" : 512,
-              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
-            } ],
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "formats" : [ "jpg", "tif", "gif", "png" ],
-              "maxArea" : 7703444,
-              "qualities" : [ "bitonal", "default", "gray", "color" ],
-              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
-            } ]
-          } ]
-        }
-      } ]
-    } ],
-    "annotations" : [ {
-      "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh/annotations/l69ojtm58p-mupz6o2x",
-      "type" : "AnnotationPage",
-      "label" : {
-        "en" : [ "Inline annotations" ]
-      },
-      "items" : [ {
-        "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh/annotations/l69ojtm58p-mupz6o2x/annotation/qvemahxdg9n-mupzawpa",
-        "type" : "Annotation",
-        "motivation" : "tagging",
-        "target" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh#xywh=591,909,1280,2105",
-        "body" : {
-          "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/byt361kx5n-mupyxjuh/annotations/l69ojtm58p-mupz6o2x/annotation/qvemahxdg9n-mupzawpa/html/en/7res8mncspx-mupzawpa",
-          "type" : "TextualBody",
-          "format" : "text/html",
-          "language" : "en",
-          "value" : "<p>25</p>\n<p>From William Geddes</p>\n<p>August 5th&#x20;</p>\n<p>To John Geddes<br />\nWashtenaw County<br />\nMichigan Territory</p>"
+          "value" : "<p>Londonderry August the 5th 1825\nDear Brother Received your letter of the 30th of May on the 18th of June\nand agreeable to your request delayed writing until I received your letters of\nJuly 6 which came to hand on the 30th July. The delay suited me well\nwell as we had pretty trying times in June, Spring having commenced so early\ntogether with an excessive drought that I brought hay-making and harvest\nin as early and as I earlier, to best of my recollection than we pain of this\nkind of harvesting on the 23 earlier I began to commence mowing on the 11 of June\nhowever you are a competent judge. Our crops was shortness light and short\novering to the warmth and yet for besides our calculations. The retro not being\nboldtown was scarce worth mentioning, the weather for hay making was just the\nreverse of last year very fine. The grain however made ample and amends for\nwe have the greatest crop of Wheat and Rye taken together that ever was raised\non the place. The wheat at age rate is the greatest. We have 993 dozens of Wheat\nand 561 of Rye. The oats was not good we harvest but 526 lots its Harvest looks\nclouds was 66cts. the average hay-making and until lately cost 5.62 its harvest lasted\njust 2 weeks. The drought this season has exceeded any forfeiture known in\nthis country. I was obliged to give flooding in the latter end of May for about\n8 days, the weather was so very hot and the ground of such an absorption the\nPropertie of a dungeon in its, and the pasturage was so completely dried up the\nstock had to drink from the pump & carried to them in great labour & dearest\nwater – we have had no rain to speak of since 18th April. Agreeably to your request\nI continue to forward you examms of our slaughter calculations. The price of Beef\nhas declined to 3d to 4d the lb. Mutton 4d to 5d and Pork from 3d to 4d. The price\nof Lamb is very low. The demand for Potatoes very great and the price 16cts\nthe stone (14lbs) for good sorts. The price for other articles is very variable,\nButter 5d to 8d. Eggs 2d to 3d the dozen. The flax crop promises to be very\ngood – I sell to Mr. John Irwin at 30 cts. the stones. He said he had offered\n32 cts. to others for those of a superior quality. My family is perfectly well\nbusy preparing for the meeting of my son John who is expected here on the\n15th of September from Edinburgh where he has been completing his Studies in\nMedicine, an application has been made from the inhabitants of this place to\nmy son to settle here as a Physician – I believe he is not disposed to accept\nthe invitation. I remain in perfect harmony with my neighbors & customers.\nI remain Dear brother your affectionate brother\nJames Mayne</p>",
+          "creator" : {
+            "type" : "Software",
+            "id" : "google/gemma-3-27b-it",
+            "name" : "HuggingFace (google/gemma-3-27b-it)",
+            "homepage" : "https://huggingface.co/docs/inference-providers"
+          },
+          "created" : "2026-10-01T14:31:18.442Z"
         }
       } ]
     } ]
