@@ -23,5 +23,11 @@
       "en" : [ "Argus Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/fdm_manifest.json",
+    "label" : {
+      "en" : [ "FandDM Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
