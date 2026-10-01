@@ -171,6 +171,87 @@
             ]
         },
         {
+            "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "aa_news_19560402_p15-food_and_drug_mart"
+                ]
+            },
+            "height": 11755,
+            "width": 3478,
+            "items": [
+                {
+                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 109,
+                                                "height": 368
+                                            },
+                                            {
+                                                "width": 218,
+                                                "height": 735
+                                            },
+                                            {
+                                                "width": 435,
+                                                "height": 1470
+                                            },
+                                            {
+                                                "width": 870,
+                                                "height": 2939
+                                            },
+                                            {
+                                                "width": 1739,
+                                                "height": 5878
+                                            },
+                                            {
+                                                "width": 3478,
+                                                "height": 11755
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 3478,
+                                        "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 11755
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://iiif-rosh.github.io/rosh-iiif/images/argus_eyes_19421005_p1/canvas/",
             "type": "Canvas",
             "label": {
@@ -333,26 +414,26 @@
             ]
         },
         {
-            "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/canvas/",
+            "id": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "aa_news_19560402_p15-food_and_drug_mart"
+                    "N017_0985_003"
                 ]
             },
-            "height": 11755,
-            "width": 3478,
+            "height": 3155,
+            "width": 4000,
             "items": [
                 {
-                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/annotation/AnnoPage",
+                    "id": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/annotation/",
+                            "id": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/full/max/0/default.jpg",
+                                "id": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/full/max/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -373,41 +454,41 @@
                                         "protocol": "http://iiif.io/api/image",
                                         "sizes": [
                                             {
-                                                "width": 109,
-                                                "height": 368
+                                                "width": 125,
+                                                "height": 99
                                             },
                                             {
-                                                "width": 218,
-                                                "height": 735
+                                                "width": 250,
+                                                "height": 198
                                             },
                                             {
-                                                "width": 435,
-                                                "height": 1470
+                                                "width": 500,
+                                                "height": 395
                                             },
                                             {
-                                                "width": 870,
-                                                "height": 2939
+                                                "width": 1000,
+                                                "height": 789
                                             },
                                             {
-                                                "width": 1739,
-                                                "height": 5878
+                                                "width": 2000,
+                                                "height": 1578
                                             },
                                             {
-                                                "width": 3478,
-                                                "height": 11755
+                                                "width": 4000,
+                                                "height": 3155
                                             }
                                         ],
                                         "profile": "level0",
-                                        "width": 3478,
-                                        "id": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart",
+                                        "width": 4000,
+                                        "id": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003",
                                         "type": "ImageService3",
                                         "@context": "http://iiif.io/api/image/3/context.json",
-                                        "height": 11755
+                                        "height": 3155
                                     }
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/aa_news_19560402_p15-food_and_drug_mart/canvas/"
+                            "target": "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003/canvas/"
                         }
                     ]
                 }

@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 125,
+    "height" : 99
+  }, {
+    "width" : 250,
+    "height" : 198
+  }, {
+    "width" : 500,
+    "height" : 395
+  }, {
+    "width" : 1000,
+    "height" : 789
+  }, {
+    "width" : 2000,
+    "height" : 1578
+  }, {
+    "width" : 4000,
+    "height" : 3155
+  } ],
+  "profile" : "level0",
+  "width" : 4000,
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/images/N017_0985_003",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3155
+}
