@@ -29,5 +29,11 @@
       "en" : [ "FandDM Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/geddes_manifest.json",
+    "label" : {
+      "en" : [ "Geddes_Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
