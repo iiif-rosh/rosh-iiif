@@ -1,0 +1,111 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-rosh.github.io/rosh-iiif/manifests/geddes_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Geddes_Manifest" ]
+  },
+  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+  "rendering" : [ {
+    "id" : "https://aadl.org/sites/default/files/docfiles/geddes_letters_18250805.pdf",
+    "type" : "Text",
+    "format" : "text/plain",
+    "label" : {
+      "en" : [ "View as text" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa",
+    "type" : "Canvas",
+    "height" : 3074,
+    "width" : 2506,
+    "label" : {
+      "en" : [ "geddes canvas" ]
+    },
+    "summary" : {
+      "en" : [ "John & William Geddes Letters" ]
+    },
+    "rights" : "Public Domain",
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-1%2fgeddes_letters_18250805-1.jpg/full/313,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 384,
+      "width" : 313
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotation-page/80kqskzbz8c-mupv4ofa",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/annotation/aa3hzl4g4p5-mupv4ofa",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-1%2fgeddes_letters_18250805-1.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3074,
+          "width" : 2506,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/geddes_letters_18250805-1%2fgeddes_letters_18250805-1.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 2506,
+            "height" : 3074,
+            "sizes" : [ {
+              "width" : 78,
+              "height" : 96
+            }, {
+              "width" : 157,
+              "height" : 192
+            }, {
+              "width" : 313,
+              "height" : 384
+            }, {
+              "width" : 627,
+              "height" : 769
+            }, {
+              "width" : 1253,
+              "height" : 1537
+            }, {
+              "width" : 2506,
+              "height" : 3074
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 7703444,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotations/vuhxmca7vg-mupv8hrd",
+      "type" : "AnnotationPage",
+      "label" : {
+        "en" : [ "Inline annotations" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotations/vuhxmca7vg-mupv8hrd/annotation/awq45v99yqr-mupv9if9",
+        "type" : "Annotation",
+        "motivation" : "tagging",
+        "target" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa#xywh=7,6,2483,3044",
+        "body" : {
+          "id" : "https://example.org/5lhrlhdgd8c-mupuy22f/canvas/h0r5lhd0oo-mupv4ofa/annotations/vuhxmca7vg-mupv8hrd/annotation/awq45v99yqr-mupv9if9/html/en/sqmotpmqtf-mupv9if9",
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "language" : "en",
+          "value" : "<p>test</p>"
+        }
+      } ]
+    } ]
+  } ]
+}
